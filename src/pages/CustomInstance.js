@@ -15,8 +15,8 @@ const CustomInstance = () => {
     try {
       const resp1 = await authFetch('/react-store-products')
       const resp2 = await axios(randomUserUrl)
-      // console.log(resp1);
-      // console.log(resp2);
+      console.log(resp1);
+      console.log(resp2);
     } catch (error) {
       console.log(error);
     }
